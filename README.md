@@ -691,7 +691,7 @@ task chen310_NeteaseCloudMusicTasks/ql_update.py
 
 每次更新完代码后一定要更新配置文件，否则可能会出错
 
-## 三、本地运行
+## 三、本地运行(面具青龙)
 
 ### 下载
 
@@ -706,13 +706,13 @@ git clone https://github.com/chen310/NeteaseCloudMusicTasks.git
 切换到项目目录
 
 ```shell
-cd NeteaseCloudMusicTasks
+cd /ql/scripts/NeteaseCloudMusicTasks/
 ```
 
 然后安装依赖
 
 ```shell
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### 修改配置文件
